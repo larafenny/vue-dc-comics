@@ -1,19 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
     <Header/>
+    <Main/>
+    <Icons/>
+    <Footer/>
+
+
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
+import Icons from './components/Icons.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Main
+    Main,
+    Icons,
+    Footer
   }
 }
 </script>

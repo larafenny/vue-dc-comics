@@ -1,12 +1,12 @@
 <template>
-    <main>
-        <h1>MAIN</h1>
-    </main>
+    <icons>
+        <h1>ICONS</h1>
+    </icons>
 </template>
 
 <script>
 export default {
-    name: 'MainComponent'
+    name: 'IconsComponent'
 }
 </script>
 
