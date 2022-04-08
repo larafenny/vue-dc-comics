@@ -4,7 +4,21 @@
             <img src="../assets/img/dc-logo.png" alt="logo">
             <div class="menu"></div>
         </div>
-        <h1>HEADER</h1>
+        <div class="menu">
+            <ul>
+                <li>CHARACTERS</li>
+                <li>COMICS</li>
+                <li>MOVIES</li>
+                <li>TV</li>
+                <li>GAMES</li>
+                <li>COLLECTIBLES</li>
+                <li>VIDEOS</li>
+                <li>FANS</li>
+                <li>NEWS</li>
+                <li>SHOP</li>
+            </ul>
+
+        </div>
     </header>
 </template>
 
@@ -14,7 +28,22 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .menu{
+        display: flex;
+        align-items: center;
+        ul{
+            display: flex;
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+}
 
 
 </style>

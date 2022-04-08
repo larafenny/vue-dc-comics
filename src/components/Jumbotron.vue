@@ -4,7 +4,6 @@
             <img src="../assets/img/jumbotron.jpg" alt="jumbotron">
             <div class="menu"></div>
         </div>
-        <h1>JUMBOTRONS</h1>
     </div>
 </template>
 
