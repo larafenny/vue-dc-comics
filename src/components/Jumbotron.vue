@@ -15,12 +15,12 @@ export default {
 
 <style lang="scss" scoped>
     .jumbotron_cover{
-        height: 400px;
+        height: 300px;
         img{
             height: 100%;
             object-fit: cover;
             width: 100vw;
-            object-position: 0px -20%;
+            object-position: 0% 0%;
         }
     }
 
