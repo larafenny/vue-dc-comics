@@ -30,16 +30,30 @@ export default {
 
 <style lang="scss" scoped>
 header{
+    margin: 0 10% 0 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    .logo{
+        width: 30%;
+        img{
+            max-width: 80px;
+        }
+    }
     .menu{
         display: flex;
         align-items: center;
+        width: 70%;
+        justify-content: space-around;
         ul{
             display: flex;
+            flex-wrap: wrap;
             li{
+                padding: 0 10px;
                 list-style-type: none;
+                font-size: 12px;
+                font-weight: 700;
+                color: #60686d;
             }
         }
     }
