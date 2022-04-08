@@ -1,6 +1,9 @@
 <template>
     <main>
-        <h1>MAIN</h1>
+        <div class="container">
+            <h1>CONTENT</h1>
+        </div>
+        
     </main>
 </template>
 
@@ -11,5 +14,12 @@ export default {
 </script>
 
 <style scoped>
-
+    main{
+        background-color: #1c1c1c;
+    }
+    .container{
+        margin: 50px 200px;
+        color: white;
+        text-align: center;
+    }
 </style>

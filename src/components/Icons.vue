@@ -1,7 +1,7 @@
 <template>
-    <icons>
+    <div class="icons">
         <h1>ICONS</h1>
-    </icons>
+    </div>
 </template>
 
 <script>
